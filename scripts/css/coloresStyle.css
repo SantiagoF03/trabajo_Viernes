@@ -3,6 +3,9 @@ body{
     background-color: rgb(55, 81, 116);
    
 }
+footer{
+    background-color: #4f5052;
+}
 p{
  color: rgb(255, 226, 226);
     font-family: Arial, sans-serif;
@@ -17,8 +20,4 @@ h1{
     height: auto;
     border-radius: 15px;
     margin: 10px;
-}
-h6{
-    color: rgb(0, 0, 0);
-    font-family: 'Times New Roman', Times, serif;
 }
