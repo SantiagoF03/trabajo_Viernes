@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weak hero, la mejor serie de los ultimos tiempos</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/coloresStyle.css">
     <script src="script.js" defer></script>
 </head>
 <body>
@@ -24,11 +24,20 @@
 <h1>Contacto</h1>
     </header>  
       <main>
-    <img src="../img/weakHero.png" alt="weak hero">     
-         <p>Si queres contactarte conmigo, podes enviarme un correo a:</p>
+    <form action="mailto:saferreyra@uade.edu.ar">
+  <label for="fname">Nombre:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Apellido:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br>
+  <label for="ldate">Edad:</label><br>
+  <input type="number" id="ldate" name="ldate" max="99" min="18"><br>
+    <label for="comentario">Comentarios:</label><br>
+  <textarea name="comentario" id="" cols="50" rows="60"></textarea>
+  <input type="submit" value="Submit">
+    </form> 
       </main>
       <footer>
-        <p>Ferreyra Santiago, 22 años</p>
+        <h6>Ferreyra Santiago, 22 años</h6>
       </footer>
 </body>
 </html>
