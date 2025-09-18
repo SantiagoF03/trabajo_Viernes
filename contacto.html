@@ -23,21 +23,28 @@
 <h1>Contacto</h1>
     </header>  
       <main>
-    <form action="mailto:saferreyra@uade.edu.ar">
+<form action="mailto:saferreyra@uade.edu.ar" method="post" enctype="text/plain">
   <label for="fname">Nombre:</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
+  <input type="text" id="fname" name="nombre" placeholder="Tu nombre" required><br>
+
   <label for="lname">Apellido:</label><br>
-  <input type="text" id="lname" name="lname" value="Doe"><br>
+  <input type="text" id="lname" name="apellido" placeholder="Tu apellido" required><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" placeholder="tu@email.com" required><br>
+
   <label for="ldate">Edad:</label><br>
-  <input type="number" id="ldate" name="ldate" max="99" min="18"><br>
-    <label for="comentario">Comentarios:</label><br>
-  <textarea name="comentario" id="" cols="50" rows="60"></textarea><br>
+  <input type="number" id="ldate" name="edad" max="99" min="18"><br>
+
+  <label for="comentario">Comentarios:</label><br>
+  <textarea name="comentario" id="comentario" cols="50" rows="6" placeholder="Dejá tu mensaje..."></textarea><br>
+
   <button type="submit" class="btn">Enviar</button>
   <button type="reset" class="btn btn--sec">Limpiar</button>
-    </form> 
+</form>
       </main>
       <footer>
-        <p>Ferreyra Santiago, 22 años</p>
+        <p>Ferreyra Santiago, 2025</p>
       </footer>
 </body>
 </html>
