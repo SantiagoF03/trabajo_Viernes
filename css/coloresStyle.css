@@ -1,10 +1,13 @@
 body{
 
   background-color: rgb(55, 81, 116);
+    min-height:100vh;
+  display:flex;
+  flex-direction:column;
+
 }
 
 html, body { height: 100%; }
- 
 main{ flex: 1; }
 
 footer{
@@ -31,7 +34,6 @@ h1{
      color:#e7ecff; 
     font-family: 'Segoe UI';
        align-items: center;
-   text-align: center;
 }
 .video{
   position: relative;
